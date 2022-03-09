@@ -1,0 +1,26 @@
+{
+  "name": "fp_lecture_notes_javascript_in_the_browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev": "concurrently \"watchify ./static/index.js -o bundle.js\" \"http-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getfutureproof-instructors/fp_lecture_notes_javascript_in_the_browser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getfutureproof-instructors/fp_lecture_notes_javascript_in_the_browser/issues"
+  },
+  "homepage": "https://github.com/getfutureproof-instructors/fp_lecture_notes_javascript_in_the_browser#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "jest": "^27.5.1",
+    "watchify": "^4.0.0"
+  }
+}
